@@ -1,0 +1,11 @@
+[package]
+name = "influencea"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.79"
+clap = { version = "4.5.0", features = ["derive"] }
+quick-xml = { version = "0.31.0", features = ["serialize"] }
+serde = { version = "1.0.196", features = ["derive"] }
+ureq = "2.9.5"
